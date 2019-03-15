@@ -39,7 +39,7 @@
 }
 
 .hero-img{
-    background-image: url('images/shoes.jpg');
+    background-image: url('./images/shoes.jpg');
     background-position: cover;
     background-position: center;
     width: 100vw;

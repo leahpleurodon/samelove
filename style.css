@@ -1,0 +1,150 @@
+
+.rainbow-banner{
+    background-color: red;
+    position: fixed;
+    height: 5vh;
+    width: 100vw;
+    bottom: 0;
+    display: flex;
+}
+
+.rainbow-banner > * {
+    vertical-align: middle;
+    color: white;
+}
+
+.red{
+    background-color: #FF3333;
+    flex: 1;
+}
+
+.yellow{
+    background-color: #FFCC33;
+    flex: 1;
+}
+
+.green{
+    background-color: #8AC926;
+    flex: 1;
+}
+
+.blue{
+    background-color: #1982C4;
+    flex: 1;
+}
+
+.purple{
+    background-color: #6A4C93;
+    flex: 1;
+}
+
+.hero-img{
+    background-image: url('stuff/shoes.jpg');
+    background-position: cover;
+    background-position: center;
+    width: 100vw;
+    height: 45vh;
+}
+
+.cover {
+    object-fit: cover;
+    height: 100%;
+  }
+
+.flex-wrapper{
+    padding: 4vh;
+    height: 35vh;
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    position: sticky; top:0;
+    transition: height 0.35s ease;
+    z-index: 99;
+}
+
+.flex-wrapper > * {
+    flex:1;
+    max-height: 100%;
+    max-width: 20%;
+    display: inline;
+    margin: 0 1vw;
+}
+
+.flex-wrapper > * > img {
+    max-height: 100%;
+}
+
+.scroll-indicator{
+    margin: 0 0 10vh 0;
+    font-size: 2em;
+} 
+ 
+.bounce {
+    display: inline-block;
+    position: relative;
+    -moz-animation: bounce 1s infinite linear;
+    -o-animation: bounce 1s infinite linear;
+    -webkit-animation: bounce 1s infinite linear;
+    animation: bounce 1s infinite linear;
+    colOr:000;
+  }
+
+.content{
+    width: 100vw;
+    padding: 5vw 5vh;
+    margin: 20vh 0;
+}
+
+.footer{
+    padding-top: 10vh;
+    margin-bottom: 10vh;
+    border-top: 1px solid black;
+}
+
+.footer > ul {
+    width: 45vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer > ul > li {
+    text-decoration: none;
+}
+
+html {
+    overflow-y: scroll;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+
+  @-webkit-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-moz-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-o-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-ms-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
